@@ -1,0 +1,26 @@
+baseURL = "http://localhost:3000"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+title = "Apurv Sonawane"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "Apurv Sonawane"
+ # headline = ""
+  image = "img/me.jpg"
+
+  links = [
+    { email = "mailto:apurvsonawane28@gmail.com" },
+    { github = "https://github.com/Apurv428" },
+    { instagram = "https://instagram.com/apurvstic" },
+    { linkedin = "https://www.linkedin.com/in/apurvsonawane/" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
